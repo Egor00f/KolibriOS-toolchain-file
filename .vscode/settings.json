@@ -1,0 +1,10 @@
+{
+	"cSpell.words": [
+		"kolibrios"
+	],
+
+	"cmake.configureSettings": {
+        "CMAKE_TOOLCHAIN_FILE": "${workspaceFolder}/toolchain.cmake",
+		"KOLIBRIOS_REPO": "${workspaceFolder}/../kolibrios"
+    }
+}

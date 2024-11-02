@@ -1,0 +1,17 @@
+{
+    "configurations": [
+        {
+            "name": "cpp",
+            "includePath": [
+                "${workspaceFolder}/../kolibrios/contrib/sdk/sources/newlib/libc/include",
+                "${workspaceFolder}/../kolibrios/contrib/sdk/sources/libstdc++-v3/include"
+            ],
+            "defines": [],
+            "compilerPath": "/home/autobuild/tools/win32/bin/kos32-g++",
+            "cStandard": "c11",
+            "cppStandard": "gnu++11",
+            "intelliSenseMode": "linux-gcc-x86"
+        }
+    ],
+    "version": 4
+}
