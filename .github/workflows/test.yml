@@ -22,7 +22,7 @@ jobs:
     steps:
     - uses: actions/checkout@v4
 
-    - uses: Egor00f/install-kolibrios-toolchain-action@v1
+    - uses: Egor00f/install-kolibrios-toolchain-action@v1.1
 
     - name: KolibriOS repo
       run: cd ${{github.workspace}}/../ && git clone https://git.kolibrios.org/KolibriOS/kolibrios.git
