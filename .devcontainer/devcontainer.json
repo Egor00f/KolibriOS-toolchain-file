@@ -3,16 +3,18 @@
   "features": {
   },
 
-  "customisations": {
+  "customizations": {
     "vscode": {
-      "extinctions": {
+      "extinctions": [
         "ms-vscode.cmake-tools",
-		"usernamehw.errorlens",
+		    "usernamehw.errorlens",
         "ibm.output-colorizer",
         "github.vscode-github-actions",
         "streetsidesoftware.code-spell-checker",
         "streetsidesoftware.code-spell-checker-russian"
-      }
+      ]
     }
-  }
+  },
+
+  "postCreateCommand": "postCreateScript.sh"
 }
