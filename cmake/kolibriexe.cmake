@@ -1,5 +1,5 @@
 # Just macro that create working executable for kolibrios
-# after ld you mustrun objcopy. else it not make executable
+# after ld you must run objcopy. else it not make working executable. Why? idk.
 
 macro(add_kolibri_executable EXE_TARGET SOURCES)
 
